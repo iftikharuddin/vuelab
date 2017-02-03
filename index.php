@@ -6,7 +6,7 @@
 <body>
 <div id="app">
 	<button @click="changeTitle">Change Title</button>
-	<p>{{title}}</p>
+	<p>{{title}} This is wonderful</p>
 </div>
 	<script type="text/javascript" src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
 	<script type="text/javascript" src="script.js"></script>
