@@ -1,7 +1,7 @@
 new Vue({
 	el: '#app',
 	
-	methods: {
+	data: {
 		cssClass: ''
 	}
 });

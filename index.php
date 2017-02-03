@@ -6,7 +6,7 @@
 </head>
 <body>
 <div id="app">
-	<input type="text" v-on:input="cssClass = $event.target.value" name="">
+	<input type="text" v-on:input="cssClass=$event.target.value">
 	<p :class="cssClass">Class: {{cssClass}}</p>
 </div>
 	<script type="text/javascript" src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
