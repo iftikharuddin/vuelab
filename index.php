@@ -1,10 +1,11 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Vue Learning</title>
 </head>
 <body>
 <div id="app">
+	<button @click="changeTitle">Change Title</button>
 	<p>{{title}}</p>
 </div>
 	<script type="text/javascript" src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
