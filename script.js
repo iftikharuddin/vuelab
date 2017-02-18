@@ -2,6 +2,11 @@ new Vue({
 	el: '#app',
 	
 	data: {
-		cssClass: ''
+		show: true,
+		persons: [
+			{name:'ifti', age:20},
+			{name:'john', age:22},
+			{name:'khan', age:23},
+		]
 	}
 });

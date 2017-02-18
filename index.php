@@ -6,8 +6,10 @@
 </head>
 <body>
 <div id="app">
-	<input type="text" v-on:input="cssClass=$event.target.value">
-	<p :class="cssClass">Class: {{cssClass}}</p>
+	<ul>
+		<h1 v-if="show != show">Good</h1>
+		<li v-else="show" v-for="person in persons">{{person.name}} | {{person.age}}</li>
+	</ul>
 </div>
 	<script type="text/javascript" src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
 	<script type="text/javascript" src="script.js"></script>
