@@ -6,7 +6,7 @@
 </head>
 <body>
 <div id="app">
-	<h1>{{theTitle  }}</h1>
+	<h1>{{title | uppercase }}</h1>
 </div>
 	<script type="text/javascript" src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
 	<script type="text/javascript" src="script.js"></script>
